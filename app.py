@@ -5,7 +5,7 @@ from flask.ext.security import Security, SQLAlchemyUserDatastore,UserMixin, Role
 
 app=Flask(__name__)
 #'postgresql://username:password@localhost/DBName'
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:Clubpenguin@7@localhost/sample'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:test123@localhost/sample'
 app.config['SECRET_KEY'] = 'super-secret'
 app.config['SECURITY_REGISTERABLE'] = True
 app.debug=True
